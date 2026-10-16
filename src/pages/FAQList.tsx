@@ -80,11 +80,8 @@ export default function FAQList() {
         <div>
           <h2 className="text-lg sm:text-2xl font-bold text-[#1B3022] tracking-tight flex items-center gap-2 sm:gap-3">
              <HelpCircle className="w-5 h-5 sm:w-7 sm:h-7 text-[#588157]" />
-             生態檢核作業 FAQ 工具
+             FAQ 知識庫
           </h2>
-          <p className="text-xs text-gray-500 mt-1.5 leading-relaxed">
-            總題數：{faqData.reduce((total, category) => total + category.items.length, 0)}｜最後更新時間：{faqMeta.lastUpdated}
-          </p>
         </div>
       </motion.div>
 
