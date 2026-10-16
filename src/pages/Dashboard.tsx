@@ -16,7 +16,7 @@ import type { ToolModule } from '../types';
 const modules: ToolModule[] = [
   {
     id: 'issues',
-    title: '關注議題工具',
+    title: '工程關注議題工具',
     description: '整合檢核區域內的生態敏感點、關注物種與工程干擾熱區分析。',
     icon: MapPinned,
     path: '/issues',
